@@ -7,6 +7,7 @@ import { sendEmail } from "@/helpers/mailer";
 connect()
 
 export async function POST(request: NextRequest) {
+    console.log('ok')
      try{
         const  {username,email,password} = await request.json()
             //validation 

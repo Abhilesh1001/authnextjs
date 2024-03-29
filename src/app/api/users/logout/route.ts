@@ -5,7 +5,7 @@ export async function POST(request:NextRequest){
     try {
 
         const response =  NextResponse.json({
-            message : 'Logout Successfully',
+            message : 'Logout Successfully',    
             success : true
         })
 
